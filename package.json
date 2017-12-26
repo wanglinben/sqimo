@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,17 @@
     "koa-socket": "^4.4.0",
     "koa-static": "^4.0.2",
     "nedb": "^1.8.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "thenify": "^3.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
   }
 }
