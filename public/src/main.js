@@ -1,6 +1,8 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import { render } from "react-dom";
 import Greeter from './js/index';
+import 'antd/dist/antd.css';
+import "./css/index.css";
 
-ReactDom.render(<Greeter/>, document.getElementById('root'));
+render(<Greeter/>, document.getElementById('root'));
 

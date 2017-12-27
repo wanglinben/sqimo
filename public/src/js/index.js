@@ -1,10 +1,14 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import { Button } from "antd";
 
 class Greeter extends Component{
   render() {
     return (
       <div>
         greete
+        <Button>
+          aaa
+        </Button>
       </div>
     );
   }
