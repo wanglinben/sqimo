@@ -6,7 +6,7 @@ class Greeter extends Component{
     return (
       <div>
         greete
-        <Button>
+        <Button type="primary">
           aaa
         </Button>
       </div>
